@@ -1,101 +1,102 @@
-@media screen and (max-width:600px) {
-nav {
+@media screen and (max-width: 600px) {
+  nav {
     padding-right: 20px;
     padding-left: 20px;
-}
+  }
 
-.nav-link {
+  .nav-link {
     display: none;
-}
+  }
 
-.nav-title {
+  .nav-title {
     font-size: 1.3rem;
-}
+  }
 
-.logo img {
+  .logo img {
     width: 28.724px;
     height: 33.516px;
-}
+  }
 
-.menu {
+  .menu {
     display: block;
-}
-.banner-section {
+  }
+  .banner-section {
     padding: 20px;
-}
+  }
 
-.banner-input {
+  .banner-input {
     flex-direction: column;
     /* padding: 30px 50px; */
+  }
 
-}
-
-.banner-input input {
+  .banner-input input {
     width: 100%;
+  }
 
-
-}
-
-.banner-input {
+  .banner-input {
     margin: 0 50px;
-}
+  }
 
-.fa-magnifying-glass {
+  .fa-magnifying-glass {
     top: 35px;
-}
+  }
 
-.fa-angle-down {
+  .fa-angle-down {
     left: 280px;
     bottom: 30px;
-}
-header{
+  }
+  header {
     padding: 0px 10px;
-}
-.banner-text h3{
+  }
+  .banner-text h3 {
     font-size: 22px;
-}
-.banner-text p{
+  }
+  .banner-text p {
     font-size: 14px;
-}
-/* popular section  */
-.popular-section {
-   flex-direction: column;
-}
-.popular-text {
+  }
+  /* popular section  */
+  .popular-section {
+    flex-direction: column;
+  }
+  .popular-text {
     width: 100%;
-
-}
-.popular-text h3 {
+  }
+  .popular-text h3 {
     color: #131318;
-        text-align: center;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 800;
-      
-}
-.popular-text p {
-    color: rgba(19, 19, 24, 0.70);
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 400;
-       
-
-}
-.popular-ul li {
-    color: rgba(19, 19, 24, 0.70);
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 400;
-       
-       
-}
-.popular-section{
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+  }
+  .popular-text p {
+    color: rgba(19, 19, 24, 0.7);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .popular-ul li {
+    color: rgba(19, 19, 24, 0.7);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .popular-section {
     padding: 0px 30px;
-}
-.popular-image {
+  }
+  .popular-image {
     width: 100%;
     border-radius: 16px;
+  }
 }
+/* footer section  */
+.footer-img img {
+  width: 20.969px;
+  height: 28.009px;
+}
+.footer-img h3 {
+  color: #131318;
 
+  font-size: 21.543px;
 
+  font-weight: 800;
 }
